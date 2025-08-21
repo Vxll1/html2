@@ -21,7 +21,7 @@ h2{
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #container{
@@ -83,6 +83,7 @@ h2{
     color: white;
 }
 
+
 #content {
     margin: 0px auto;
     overflow: hidden;
@@ -95,7 +96,7 @@ h2{
     float: left;
     margin-top: 20px;
     margin-left: 10px;
-    border: 1px solid rgb(156, 36, 204);
+    border: 1px solid rgb(76, 18, 99);
 }
 
 
@@ -104,7 +105,7 @@ h2{
     width: 90%;
     margin: 5px auto;
     padding: 10px;
-    border: 1px solid rgb(82, 16, 95);
+    border: 1px solid rgb(212, 6, 248);
 }
 
 #lateral h3{
@@ -120,3 +121,45 @@ h2{
     background: #e1e1e1;
     border: 2px solid #b272c2;
 }
+
+input[type="text"], input[type="password"], input[type="email"]{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid rgb(130, 73, 148);
+    box-shadow: 0px 0px 2px #000000 inset;
+    padding: 2px;
+    color: gray;
+    transition: all 300ms;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+    border: 1px solid #1579B5;
+    color: black;
+}
+
+input[type="button"], input[type="submit"] {
+    display: block;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: antiquewhite;
+    width: 80px;
+    height: 30px;
+    background-color: violet;
+    border-color: black;
+    cursor: pointer;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    color: antiquewhite;
+    border-top: 2px solid rgb(180, 75, 194);
+}
+
