@@ -21,7 +21,11 @@ h2{
 *{
     padding: 0px;
     margin: 0px;
+<<<<<<< HEAD
     font-family: 'Times New Roman', Times, serif;
+=======
+    font-family: Arial, Helvetica, sans-serif;
+>>>>>>> 1d03eaec51273ff704f650759406c6fe45656cda
 }
 
 #container{
@@ -81,6 +85,7 @@ h2{
 #menu a:hover{
     background-color: rgb(93, 39, 143);
     color: white;
+<<<<<<< HEAD
 }
 
 
@@ -163,3 +168,6 @@ input[type="button"], input[type="submit"] {
     border-top: 2px solid rgb(180, 75, 194);
 }
 
+=======
+}
+>>>>>>> 1d03eaec51273ff704f650759406c6fe45656cda
